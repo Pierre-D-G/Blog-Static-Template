@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/stylesheets/responsive-nav.css">
+    <link rel="stylesheet" href="public/stylesheets/semantic.min.css">
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <script src="public/javascripts/responsive-nav.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <title>Nodeblog</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <a href="#home" class="logo" data-scroll><span class="left">Node</span><span class="right">Blog</span></a>
+        <nav class="nav-collapse">
+            <ul>
+                <li><a href="index.html">Blogs</a></li>
+                <li><a href="new-blog.html">New Blog Post</a></li>
+                <li><a href="new-categry.html">New Category</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="main">
+        <div class="ui container">
+            <div class="ui stackable grid">
+                <div class="four wide column">
+                    <div class="ui segment">
+                        <img class="ui small centered image" src="public/images/blog-profile.jpg">
+                        <hr>
+                        <p>Hi,I am Gamil and welcome to my blog template.Te eum doming eirmod, nominati pertinacia argumentum
+                            ad his. Ex eam alia facete scriptorem, est autem aliquip detraxit at.</p>
+                        <div class="ui center aligned segment">
+                            <a href="https://facebook.com" class="ui circular facebook icon button">
+                                <i class="facebook icon"></i>
+                            </a>
+                            <a href="https://www.twitter.com" class="ui circular twitter icon button">
+                                <i class="twitter icon"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" class="ui circular linkedin icon button">
+                                <i class="linkedin icon"></i>
+                            </a>
+                            <a href="https://www.instagram.com" class="ui circular instagram icon button">
+                                <i class="instagram icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="twelve wide column">
+                    <div class="ui segment">
+                        <form class="ui form" action="#" method="POST" enctype="multipart/form-data">
+                            <div class="field">
+                                <label>Category Name</label>
+                                <input type="text" name="categoryName" placeholder="Caetgory">
+                            </div>
+                            <button class="ui button scheme-button" type="submit">Save</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        var nav = responsiveNav(".nav-collapse");
+    </script>
+    <script src="public/javascripts/jquery-3.2.0.min.js"></script>
+    <script src="public/javascripts/semantic.min.js"></script>
+</body>
+
+</html>
