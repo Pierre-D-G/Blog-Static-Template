@@ -12,11 +12,13 @@ I bring these html pages to life using Node,Express and MongoDB at the NodeBlog 
 ## Created with
 
 *Semantic UI - https://github.com/semantic-org/semantic-ui/
+
 *Responsive Nav - https://github.com/viljamis/responsive-nav.js
 
 ## How to use:
 
 *Download or clone the repository
+
 *Open index.html
 
 ## License
