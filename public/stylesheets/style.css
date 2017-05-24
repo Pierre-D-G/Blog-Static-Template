@@ -126,7 +126,7 @@ h2{
 
 .navigation {
   width: 100%;
-  background: url(/public/images/banner.jpeg) no-repeat 0px 0px;
+  background: url(../images/banner.jpeg) no-repeat 0px 0px;
   background-size: cover;
   min-height: 340px;
 }
